@@ -4,7 +4,7 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const use  = (cors());
+app.use(cors());
 
 
 const server = require('http').Server(app);
